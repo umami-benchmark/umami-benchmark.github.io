@@ -24,3 +24,8 @@
 .photo-credit{margin:7px 0 0;padding:6px 8px}.photo-credit .credit{font-size:10px;line-height:1.5}.decision-panel>h3{margin-top:0}
 
 .catalog-search{flex:1 1 350px;max-width:520px;display:flex;flex-direction:column;gap:6px;font-size:13px;font-weight:500}.catalog-search input[type=search]{width:100%;max-width:none;min-width:0}.catalog-search small{font-size:11px;color:#69778d;font-weight:400}.toolbar:has(.catalog-search){align-items:center}
+
+/* Optional anonymous code release link; configured in site-config.json. */
+.site-header .code-repository-link { margin-left:auto; font-size:13px; color:#475569; text-decoration:none; padding:6px 10px; border:1px solid #e2e8f0; border-radius:5px; }
+.site-header .code-repository-link:hover { color:#1d4ed8; border-color:#bfdbfe; background:#f8fafc; }
+.site-header .code-repository-link[hidden] { display:none; }
